@@ -117,6 +117,9 @@ const routes = [{
   path: '/step_by_step_guide',
   file: 'guide.html'
 }, {
+  path: '/cookie_extractor',
+  file: 'cookie.html'
+}, {
   path: '/online_user',
   file: 'online.html'
 }, ];
@@ -499,4 +502,3 @@ async function createDatabase() {
   return database;
 }
 main()
-              
