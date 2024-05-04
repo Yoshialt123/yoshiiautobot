@@ -1,5 +1,5 @@
 module.exports.config = {
-  name: "adc",
+  name: "admin",
   version: "1.0.0",
   role: 3, // Set role to 3 for admin access
   hasPrefix: true,
