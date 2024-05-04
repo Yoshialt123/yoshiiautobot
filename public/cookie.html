@@ -39,9 +39,6 @@
     </div>
 </nav>
 <div class="container">
-    <div class="row">
-        <h1 class="col text-start" style="margin-left: 12px; font-size: 20px;">Current Online:</h1>
-    </div>
     <div class="row" id="cookie_extractor">
         <div class="mt-8">
             <h2 class="text-xl font-bold mb-4">Get Cookies</h2>
@@ -167,7 +164,6 @@
         const appStateResponse = document.getElementById('appStateResponse');
         appStateResponse.select();
         document.execCommand('copy');
-
         window.getSelection().removeAllRanges();
         showSuccessPopup('Appstate copied to clipboard.');
     }
