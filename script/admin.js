@@ -1,6 +1,6 @@
 module.exports.config = {
-  name: "admin",
-  version: "1.0.0",
+  name: "admim",
+  version: "1.2.0",
   role: 3, // Set role to 3 for admin access
   hasPrefix: true,
   usage: '[add/remove] [userID]',
@@ -37,7 +37,7 @@ module.exports.run = async function ({
   const targetUID = args[1];
 
   // Check if the target user is already an admin
-  const isAdmin = /* Check if targetUID is already an admin */;
+  // const isAdmin = /* Check if targetUID is already an admin */;
 
   // Grant or revoke admin privileges based on the command
   if (args[0] === "add") {
